@@ -48,6 +48,7 @@ npm start
 - Add new employee
 - Sort List by Employee id
 
+
 ## Third Party Libraries
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking.
@@ -56,3 +57,24 @@ npm start
 - [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/download/) for buidling page
 - [React Icons](https://react-icons.github.io/react-icons) for icons
 - [Axios](https://github.com/axios/axios) for api calls.
+- [MockApi](https://mockapi.io/) for mocked data
+
+
+## Sample mocked Json 
+
+```
+[
+ {
+  "name": "Rebeca",
+  "state": "state 1",
+  "jobTitle": "Global Web Facilitator",
+  "id": "1"
+ },
+ {
+  "name": "Frederick",
+  "state": "state 2",
+  "jobTitle": "Forward Marketing Representative",
+  "id": "2"
+ }
+]
+```
