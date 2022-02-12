@@ -105,7 +105,7 @@ const AddEmployee = (props) => {
       </Button>
       <NewEmployee
         show={showNewEmployeeForm}
-        handlestatefn={() => props.handleAfterAdditionFn}
+        handlestatefn={props.handleAfterAdditionFn}
         onHide={() => setNewEmployeeForm(false)}
       />
     </>
