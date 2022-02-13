@@ -12,7 +12,6 @@ import AddEmployee from "./components/AddEmployee";
 export const STATES = ["ADDED", "IN-CHECK", "APPROVED", "ACTIVE", "INACTIVE"];
 
 const App = () => {
-  const emp= {'id':1,'state':'ADDED','name':'sangam','jobTitle':'Egm'};
   const [employees, setEmployees] = useState([]);
   // Fetch all employees
   useEffect(() => {
